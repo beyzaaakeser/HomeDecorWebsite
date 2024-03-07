@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="btn-group">
+              <button
+                class="btn border dropdown-toggle my-md-4 my-2 text-white"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                USD
+              </button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">ERU - Euro</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <h2 class="my-md-3 site-title text-white">Online Store</h2>
+          </div>
+          <div class="col-md-4 col-12 text-right">
+            <p class="float-end my-md-4 header-links">
+              <a href="#" class="px-2">Sign In</a>
+              <a href="#" class="px-1">Create an Account</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-uppercase"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">collection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">about us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar-nav">
+            <li class="nav-item border rounded-circle mx-2 search-icon">
+              <i class="bi bi-search-heart px-1 py-2"></i>
+            </li>
+            <li class="nav-item border rounded-circle mx-2 basket-icon">
+              <i class="bi bi-bag-heart px-1 py-2"></i>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- First Slider -->
+      <div id="carouselExampleDark" class="carousel carousel-white slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="images/Banner1.jpg"
+              class="d-block w-100-height"
+              alt="..."
+            />
+            <div class="carousel-caption d-md-block text-white">
+              <p class="fs-5">1/5</p>
+              <h2 class="fs-1">Discover More Easily</h2>
+              <div class="d-flex justify-content-center mb-5">
+                <input
+                  class="form-control w-50"
+                  type="search"
+                  name="
+                "
+                  id=""
+                  placeholder="Search..."
+                />
+                <button
+                  class="btn btn-light btn-sm justify-content-md-end mx-2 px-3"
+                >
+                  <i class="bi bi-search-heart fs-5"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="images/Banner2.jpg"
+              class="d-block w-100-height"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <p class="fs-5">2/5</p>
+              <h2 class="fs-1">For Future Generations</h2>
+              <div class="d-flex justify-content-center mb-5">
+                <button
+                  class="btn btn-light btn-sm justify-content-md-end w-50 fs-4 text-secondary"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Banner3.jpg"
+              class="d-block w-100-height"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <p class="fs-5">3/5</p>
+              <h2 class="fs-1">Love Your Space</h2>
+              <div class="d-flex justify-content-center mb-5">
+                <button
+                  class="btn btn-light btn-sm justify-content-md-end w-50 fs-4 text-secondary"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Banner4.jpg"
+              class="d-block w-100-height"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <p class="fs-5">4/5</p>
+              <h2 class="fs-1">Revive, Refresh, Renew.</h2>
+              <div class="d-flex justify-content-center mb-5">
+                <button
+                  class="btn btn-light btn-sm justify-content-md-end w-50 fs-4 text-secondary"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Banner5.jpg"
+              class="d-block w-100-height"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-white">
+              <p class="fs-5">5/5</p>
+              <h2 class="fs-1">Embrace Modern Sophistication</h2>
+              <div class="d-flex justify-content-center mb-5">
+                <button
+                  class="btn btn-light btn-sm justify-content-md-end w-50 fs-4 text-secondary"
+                >
+                  More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- First Slider -->
+
+      <!-- Second Slider -->
+      <div class="container-fluid second-container">
+        <div class="site-slider-two px-md-4">
+          <div class="row slider-two text-center">
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/light-lamp.jpg" alt="light-lamp" />
+              <span class="border site-btn btn-span text-uppercase"
+                >Light Lamp</span
+              >
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/chair.jpg" alt="chair" />
+              <span class="border site-btn btn-span text-uppercase">Chair</span>
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/shelf.jpg" alt="shelf" />
+              <span class="border site-btn btn-span text-uppercase">Shelf</span>
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/frames.jpg" alt="frames" />
+              <span class="border site-btn btn-span text-uppercase"
+                >Frames</span
+              >
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/pillow.jpg" alt="pillow" />
+              <span class="border site-btn btn-span text-uppercase"
+                >pillow</span
+              >
+            </div>
+            <div class="col-md-2 product pt-md-5 pt-4">
+              <img src="images/vase.jpg" alt="vase" />
+              <span class="border site-btn btn-span text-uppercase">vase</span>
+            </div>
+          </div>
+
+          <div class="slider-btn">
+            <span class="prev position-top ">
+                <i class="bi bi-chevron-compact-left fs-1 text-secondary"></i>
+            </span>
+            <span class="next position-top right-0">
+                <i class="bi bi-chevron-compact-right fs-1 text-secondary"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- Second Slider -->
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
