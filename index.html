@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <header id="navbar">
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container">
           <button
             class="navbar-toggler"
@@ -42,19 +42,18 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-1 py-md-2" href="#">Features</a>
+                <a class="nav-link ps-1 py-md-2" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-1 py-md-2" href="#">collections</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ps-1 py-md-2" href="#">shop</a>
+                <a class="nav-link ps-1 py-md-2" href="#blogs">blogs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link ps-1 py-md-2" href="#">about us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ps-1 py-md-2" href="#">contact us</a>
+                <a class="nav-link ps-1 py-md-2" href="#contact-us"
+                  >contact us</a
+                >
               </li>
             </ul>
           </div>
@@ -227,13 +226,50 @@
       <!-- First Slider -->
 
       <!-- Second Section -->
-      <section class="second-section">
-        
+      <section class="second-section" id="features">
+        <div class="slider-container">
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button text-center">
+              <i class="bi bi-chevron-compact-left text-center"></i>
+            </button>
+            <div class="image-list">
+              <img src="images/light-lamp.jpg" alt="" class="slide-img-item" />
+              <img src="images/chair.jpg" alt="" class="slide-img-item" />
+              <img src="images/shelf.jpg" alt="" class="slide-img-item" />
+              <img src="images/pillow.jpg" alt="" class="slide-img-item" />
+              <img src="images/frames.jpg" alt="" class="slide-img-item" />
+              <img src="images/frame2.jpg" alt="" class="slide-img-item" />
+              <img src="images/vase.jpg" alt="" class="slide-img-item" />
+              <img src="images/plant.jpg" alt="" class="slide-img-item" />
+              <img src="images/table.jpg" alt="" class="slide-img-item" />
+              <img src="images/meal-table.jpg" alt="" class="slide-img-item" />
+              <img
+                src="images/reading-place.jpg"
+                alt=""
+                class="slide-img-item"
+              />
+              <img
+                src="images/dressing room.jpg"
+                alt=""
+                class="slide-img-item"
+              />
+              <img src="images/ladder.jpg" alt="" class="slide-img-item" />
+            </div>
+            <button id="next-slide" class="slide-button text-center">
+              <i class="bi bi-chevron-compact-right text-center"></i>
+            </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb"></div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Second Section -->
 
       <!-- Blog Section -->
-      <section class="update-news mb-5 overflow-hidden">
+      <section class="update-news mb-5 overflow-hidden" id="blogs">
         <div class="up-center-text">
           <h2>Home Decor Blog Update!</h2>
         </div>
@@ -280,7 +316,7 @@
       <!-- Blog Section -->
 
       <!-- Footer Section -->
-      <section class="footer">
+      <section class="footer" id="contact-us">
         <div class="footer-container container" id="footer">
           <div class="footer-content row d-flex flex-column flex-md-row ps-">
             <div class="first col-lg-6 mb-3">
@@ -344,11 +380,12 @@
       </section>
       <!-- Footer Section -->
     </main>
-
+    <a href="#navbar" class="up d-none d-md-flex"> <i class="bi bi-arrow-up-circle"></i></a>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
